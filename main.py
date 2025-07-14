@@ -25,48 +25,49 @@ st.set_page_config(
 )
 
 # Custom CSS for better styling
+# Custom CSS for better styling
 st.markdown("""
-<style>
-    .main-header {
-        font-size: 3rem;
-        font-weight: bold;
-        color: #ff9900;
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-    .feature-header {
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: #232f3e;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-    }
-    .metric-card {
-        background-color: #f0f2f6;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-left: 4px solid #ff9900;
-    }
-    .insight-box {
-        background-color: #fff3e0;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-left: 4px solid #ff9900;
-        margin: 1rem 0;
-    }
-    .sentiment-positive {
-        color: #28a745;
-        font-weight: bold;
-    }
-    .sentiment-negative {
-        color: #dc3545;
-        font-weight: bold;
-    }
-    .sentiment-neutral {
-        color: #6c757d;
-        font-weight: bold;
-    }
-</style>
+    <style>
+        .main-header {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ff9900;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .feature-header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #232f3e;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .metric-card {
+            background-color: #f0f2f6;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border-left: 4px solid #ff9900;
+        }
+        .insight-box {
+            background-color: #fff3e0;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border-left: 4px solid #ff9900;
+            margin: 1rem 0;
+        }
+        .sentiment-positive {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .sentiment-negative {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .sentiment-neutral {
+            color: #6c757d;
+            font-weight: bold;
+        }
+    </style>
 """, unsafe_allow_html=True)
 
 @st.cache_data
